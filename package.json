@@ -1,0 +1,22 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefrotaru/news-homepage-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefrotaru/news-homepage-main/issues"
+  },
+  "homepage": "https://github.com/stefrotaru/news-homepage-main#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

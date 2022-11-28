@@ -8,53 +8,81 @@
   
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles/css/style.css">
 </head>
 <body>
+  <main class="container">
+    
+    <div class="navbar">
+      <img src="./assets/images/logo.svg" alt="" class="navbar__logo">
+      <ul class="navbar__links">
+        <a href="#" class="navbar__links-link">Home</a>
+        <a href="#" class="navbar__links-link">New</a>
+        <a href="#" class="navbar__links-link">Popular</a>
+        <a href="#" class="navbar__links-link">Trending</a>
+        <a href="#" class="navbar__links-link">Categories</a>
+      </ul>
+    </div>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+    <div class="center">
+      <div class="center__main-article">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="web3">
+        <div class="flex-inline">
+          <h1 class="center__main-article__title">The Bright Future of Web 3.0?</h1>
+         <div class="flex-col">
+            <p class="center__main-article__description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button class="center__main-article__btn">Read more</button>
+          </div> 
+        </div>
+      </div>
 
-  The Bright Future of Web 3.0?
+      <div class="center__new-articles">
+        <h2 class="center__new-articles__title">New</h2>
+        <div class="center__new-articles__article">
+          <h3 class="center__new-articles__article__title">Hydrogen VS Electric Cars</h3>
+          <p class="center__new-articles__article__description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <!-- <hr> -->
+        <div class="center__new-articles__article">
+          <h3 class="center__new-articles__article__title">The Downsides of AI Artistry</h3>
+          <p class="center__new-articles__article__description">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <!-- <hr> -->
+        <div class="center__new-articles__article">
+          <h3 class="center__new-articles__article__title">Is VC Funding Drying Up?</h3>
+          <p class="center__new-articles__article__description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+    <div class="top-news">
+      <div class="top-news__box">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="">
+        <div class="flex-col">
+          <span class="top-news__box__number">01</span>
+          <h3 class="top-news__box__title">Reviving Retro PCs</h3>
+          <p class="top-news__box__description">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="top-news__box">
+        <img src="./assets/images/image-top-laptops.jpg" alt="">
+        <div class="flex-col">
+          <span class="top-news__box__number">02</span>
+          <h3 class="top-news__box__title">Top 10 Laptops of 2022</h3>
+          <p class="top-news__box__description">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="top-news__box">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="">
+        <div class="flex-col">
+          <span class="top-news__box__number">03</span>
+          <h3 class="top-news__box__title">The Growth of Gaming</h3>
+          <p class="top-news__box__description">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </main>  
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+//----------------------------------------------------------------
+// FONTS
+$font-main: 'Inter', sans-serif;
+
+// COLORS
+$color-primary--soft-orange: hsl(35, 77%, 62%);
+$color-primary--soft-red: hsl(5, 85%, 63%);
+
+$color-neutral--off-white: hsl(36, 100%, 99%);
+$color-neutral--grayish-blue: hsl(233, 8%, 79%);
+$color-neutral--dark-grayish-blue: hsl(236, 13%, 42%);
+$color-neutral--very-dark-blue: hsl(240, 100%, 5%);
+//----------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {}
+
+body {}
+
+.container {}
+
+.navbar {
+
+
+    &__logo {}
+
+    &__links {
+
+
+        &-link {}
+    }
+}
+
+.center {
+
+
+    &__main-article {
+
+
+        & > img {}
+
+        & > .flex-inline {
+
+
+            & > .flex-col {}
+        }
+
+        &__title {}
+
+        &__description {}
+
+        &__btn {}
+    }
+
+    &__new-articles {
+
+
+        &__title {}
+
+        &__article {
+
+
+            &__title {}
+
+            &__description {}
+        }
+    }
+}
+
+.top-news {
+
+
+    &__box {
+
+
+        & > img {
+            height: 100px;
+            width: 70px;
+        }
+
+        & > .flex-col {}
+
+        &__number {}
+
+        &__title {}
+
+        &__description {}
+    }
+}
